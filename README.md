@@ -39,8 +39,17 @@ Document what libraries I use, what I know, and what I want to learn about Emacs
 - [ ] How to run something Async
 - [ ] Elixir Auto format on save
 - [ ] Git integration (magit?)
-- [ ] Markdown formatter
-- [ ] Disable toolbar on startup
+- [x] Markdown formatter
+	Answer: markdown mode
+- [x] Disable toolbar on startup
+	Answer: 
+	```
+	;; Remove the toolbar
+	(tool-bar-mode -1)
+
+	;; Remove Scroll bars
+	(scroll-bar-mode -1)
+	```
 
 # Libraries worth mentioning
 
