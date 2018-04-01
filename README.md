@@ -8,14 +8,18 @@ Document what libraries I use, what I know, and what I want to learn about Emacs
 - [ ] How do you access console?
 - [ ] How do you cancel?
       Answer: `C-g`
+- [ ] Multiple working tabs?
 - [ ] Multiple working panes?
-- [ ] How to comment out multiple lines?
-- [ ] Equivalent of Tim Pope's surround
+	Answer: vim style with Evil mode
+- [x] How to comment out multiple lines?
+	Answer: Evil Commentary
+- [x] Equivalent of Tim Pope's surround
+	Answer: Evil Surround
 - [x] How to open previous file?
     Answer: One way is using the buffer `C-x b` (hit tab for a list of autocompletes)  
 
     Answer: `C-x left` or `C-x right`
-- [ ] How to show the line number?
+- [x] How to show the line number?
 - [ ] Change the color of my cursor? 
 - [x] Search locally in a file?
     Answer: 'C-s' to search forward, then `C-s` for next and `C-r` for previous. There's also functionality to search backwards `C-r` but it might be overridden by EVIL
@@ -23,6 +27,8 @@ Document what libraries I use, what I know, and what I want to learn about Emacs
     Answer: `M-%`, `space` for yes, `n` for no, `!` for all 
 - [x] Wrap text
     Answer: `M-q`
+ [ ] File Tree Viewer
+	Answer: Projectile and Neotree
 
 
 # Emacs stuff
